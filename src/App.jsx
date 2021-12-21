@@ -10,6 +10,7 @@ class App extends React.Component {
       buttonClicked: "",
       assignments: [] /*Below this line, add the students state variable*/,
       grades: {},
+      students: [],
     };
 
     this.handleButtonClicked = this.handleButtonClicked.bind(this);
